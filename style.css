@@ -1,0 +1,60 @@
+*,
+** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fore: #411530;
+    --back: #f5e8e4;
+    --primary: #d1512d;
+    --secondary: #f5c7a9;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--back);
+}
+
+.navbar {
+    font-size: 1.5rem;
+
+    padding: 1rem 1rem;
+    color: var(--back);
+
+    box-shadow: 0 0 6px 6px #686868;
+    background-color: var(--fore);
+
+    
+    position: sticky;
+    top: 0;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: stretch;
+    gap: 1rem;
+}
+
+section {
+    flex: 1 0 80%;
+}
+aside {
+    flex: 1 0 15%;
+}
+
+.shop {
+    padding: 2rem;
+    border: 1px solid black;
+}
+
+.cart-aside {
+    height: calc(100vh - 5rem);
+    border: 1px solid black;
+
+    position: sticky;
+    top: 3.75rem;
+}
