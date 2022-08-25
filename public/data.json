@@ -2,22 +2,86 @@
     "list": [
         {
             "id": 1,
-            "image": "https://random.imagecdn.app/200/350",
+            "image": "../assets/1.jpg",
+            "name": "hotness",
             "desc": "hot piks 1 :lub:"
         },
         {
             "id": 2,
-            "image": "https://random.imagecdn.app/200/350",
+            "image": "../assets/2.jpg",
+            "name": "hotness",
             "desc": "hot piks 2 :lub:"
         },
         {
             "id": 3,
-            "image": "https://random.imagecdn.app/200/350",
-            "desc": "hot piks 3 :lub:"
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
         },
         {
             "id": 4,
-            "image": "https://random.imagecdn.app/200/350",
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 5,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 6,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 7,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 8,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 9,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 10,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 11,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 12,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 2 :lub:"
+        },
+        {
+            "id": 13,
+            "image": "../assets/2.jpg",
+            "name": "hotness",
+            "desc": "hot piks 3 :lub:"
+        },
+        {
+            "id": 14,
+            "image": "../assets/3.jpg",
+            "name": "hotness",
             "desc": "hot piks 4 :lub:"
         }
     ]

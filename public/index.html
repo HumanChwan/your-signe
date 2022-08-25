@@ -4,17 +4,26 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>TODO: Title</title>
-        <script defer src="script.js"></script>
-        <link rel="stylesheet" href="style.css" />
+        <title>Rohan Assessment</title>
+        <link href="style.css" rel="stylesheet" />
     </head>
     <body>
         <header class="navbar">
-            <nav class="nav">Navbar</nav>
+            <span>Rohan Assessment</span>
+            <nav class="nav">
+                <a href="./drag_drop.html">Drag</a>
+                <a href="./confetti.html">Confetti</a>
+                <a href="./normal.html">Normal</a>
+            </nav>
         </header>
-        <main class="main">
-            <section class="shop"></section>
-            <aside class="cart-aside"></aside>
-        </main>
+        <script>
+            const links = ['drag_drop', 'confetti', 'normal'];
+            const a = document.createElement('a');
+            a.href = `./${links[Math.floor(Math.random() * 3)]}.html`;
+
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        </script>
     </body>
 </html>
