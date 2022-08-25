@@ -10,6 +10,8 @@
     --back: #f5e8e4;
     --primary: #d1512d;
     --secondary: #f5c7a9;
+    --secondary-dark-smol: #e9c1a7;
+    --secondary-dark: #c5a28a;
 }
 
 body {
@@ -31,6 +33,7 @@ body {
 
     
     position: sticky;
+    z-index: 100;
     top: 0;
 
     display: flex;
@@ -129,7 +132,7 @@ aside {
 .card {
     padding: 1rem;
     border: 1px solid black;
-    width: 15rem;
+    width: 22rem;
 
     display: flex;
     justify-content: center;
@@ -140,7 +143,26 @@ aside {
 
 .card-button > button {
     position: relative;
+    color: var(--fore);
+    font-weight: 700;
+    border:  1px solid var(--secondary-dark);
+    background-color: var(--secondary);
+    padding: 0.5rem 1rem;
+
+    transition: background-color 100ms ease;
 }
+
+.card-button > button:hover {
+    background-color: var(--secondary-dark-smol);
+    cursor: pointer;
+}
+
+/* .cart-button > button::before {
+    content: '';
+    background: url('./assets/cart.svg');
+    width: 100px;
+    height: 100px;
+} */
 
 .card-button > button i {
     position: absolute;
@@ -153,8 +175,9 @@ aside {
     opacity: 0;
 }
 
-.card-img {
-    width: max-content;
+.card-img img {
+    width: 20rem;
+    height: 20rem;
 }
 
 .cart-object {

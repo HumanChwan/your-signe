@@ -170,13 +170,13 @@
         };
 
         addToCart = (shopObject: TShopObject) => {
+            if (!this.openState) this.domButtonElement.click();
             if (this.checkAndChangeQuantity(shopObject, 1)) return;
 
             this.cartContents.push({ ...shopObject, quantity: 1 });
             this.listContainerElement.appendChild(
                 this.createCartElement(shopObject)
             );
-            if (!this.openState) this.domButtonElement.click();
         };
     }
 
