@@ -11,19 +11,24 @@
         <header class="navbar">
             <span>Your Signe</span>
             <nav class="nav">
-                <a href="./drag_drop.html">Drag</a>
-                <a href="./confetti.html">Confetti</a>
-                <a href="./normal.html">Normal</a>
+                <a href="./kimberly.html">Drag</a>
+                <a href="./alphonso.html">Confetti</a>
+                <a href="./jackjones.html">Normal</a>
             </nav>
         </header>
+        <main class="index">
+            <button onclick="handleClick()" class="index-btn">Move</button>
+        </main>
         <script>
-            const links = ['drag_drop', 'confetti', 'normal'];
-            const a = document.createElement('a');
-            a.href = `./${links[Math.floor(Math.random() * 3)]}.html`;
+            const handleClick = () => {
+                const links = ['kimberly', 'alphonso', 'jackjones'];
+                const a = document.createElement('a');
+                a.href = `./${links[Math.floor(Math.random() * 3)]}.html`;
 
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            };
         </script>
     </body>
 </html>
