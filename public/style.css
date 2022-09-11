@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *,
 ** {
     margin: 0;
@@ -20,7 +22,12 @@ body {
     margin: 0;
     background-color: var(--back);
 
+    font-family: Poppins;
     overflow-x: hidden;
+}
+
+button {
+    font-family: Poppins;
 }
 
 .navbar {
@@ -274,11 +281,14 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0rem;
+    flex-direction: column;
 }
 
 .dashed-placeholder p {
     color: #686868;
     font-size: 1.25rem;
+    margin: 0;
 }
 
 .hide {
