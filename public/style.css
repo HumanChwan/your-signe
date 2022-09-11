@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *,
-** {
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -126,7 +127,7 @@ aside {
 }
 
 .cart {
-    height: calc(100vh - 5.625rem);
+    height: calc(100vh - 3.75rem);
     box-shadow: 0 2px 6px 2px #686868;
     padding: 1rem 0.25rem;
 
@@ -182,7 +183,7 @@ aside {
 .card {
     padding: 1rem;
     border: 1px solid black;
-    width: 22rem;
+    width: 25rem;
 
     display: flex;
     justify-content: center;
@@ -246,8 +247,13 @@ aside {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
 }
 
+.card-desc span {
+    font-weight: 700;
+}
 
 .cart-object-desc {
     flex: 1 0 50%;
@@ -260,6 +266,10 @@ aside {
 .cart-object-qty {
     display: flex;
     gap: 0.75rem;
+}
+
+.cart-object-qty button {
+    padding: 0 0.5rem;
 }
 
 .cart-object-img {
