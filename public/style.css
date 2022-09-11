@@ -98,7 +98,7 @@ aside {
     position: sticky;
     top: 3.75rem;
 
-    transition: transform 100ms ease;
+    transition: transform 200ms ease;
 
     display: flex;
     flex-direction: column;
@@ -137,6 +137,7 @@ aside {
 
     box-shadow: -2px 0 6px 2px #686868;
     transform: translate(-100%, 40%); 
+
 }
 
 .cart-toggle:hover {
@@ -190,7 +191,6 @@ aside {
 }
 
 .card-img img {
-    width: 20rem;
     height: 20rem;
 }
 
@@ -234,6 +234,31 @@ aside {
 .cart-object-img img {
     /* height: 8rem; */
     height: 6rem;
+}
+
+.dashed-placeholder {
+    border: 2px dashed #686868;
+    height: 80%;
+    background: #ccc;
+    margin: 10px 0px 50px 0px;
+    padding: 8px 0px 10px 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashed-placeholder p {
+    color: #686868;
+    font-size: 1.25rem;
+}
+
+.hide {
+    display: none;
+}
+
+.center-me-nya {
+    justify-content: center;
 }
 
 @keyframes bang {

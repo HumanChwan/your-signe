@@ -2,87 +2,141 @@
     "list": [
         {
             "id": 1,
-            "image": "../assets/1.jpg",
+            "image": "../assets/1.jpeg",
             "name": "hotness",
             "desc": "hot piks 1 :lub:"
         },
         {
             "id": 2,
-            "image": "../assets/2.jpg",
+            "image": "../assets/2.jpeg",
             "name": "hotness",
             "desc": "hot piks 2 :lub:"
         },
         {
             "id": 3,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 4,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 5,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 6,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 7,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 8,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 9,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 10,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 11,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 12,
-            "image": "../assets/2.jpg",
-            "name": "hotness",
-            "desc": "hot piks 2 :lub:"
-        },
-        {
-            "id": 13,
-            "image": "../assets/2.jpg",
+            "image": "../assets/3.jpeg",
             "name": "hotness",
             "desc": "hot piks 3 :lub:"
         },
         {
-            "id": 14,
-            "image": "../assets/3.jpg",
+            "id": 4,
+            "image": "../assets/4.jpeg",
             "name": "hotness",
             "desc": "hot piks 4 :lub:"
+        },
+        {
+            "id": 5,
+            "image": "../assets/5.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 5 :lub:"
+        },
+        {
+            "id": 6,
+            "image": "../assets/6.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 6 :lub:"
+        },
+        {
+            "id": 7,
+            "image": "../assets/7.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 7 :lub:"
+        },
+        {
+            "id": 8,
+            "image": "../assets/8.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 8 :lub:"
+        },
+        {
+            "id": 9,
+            "image": "../assets/9.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 9 :lub:"
+        },
+        {
+            "id": 10,
+            "image": "../assets/10.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 10 :lub:"
+        },
+        {
+            "id": 11,
+            "image": "../assets/11.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 11 :lub:"
+        },
+        {
+            "id": 12,
+            "image": "../assets/12.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 12 :lub:"
+        },
+        {
+            "id": 13,
+            "image": "../assets/13.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 13 :lub:"
+        },
+        {
+            "id": 14,
+            "image": "../assets/14.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 14 :lub:"
+        },
+        {
+            "id": 15,
+            "image": "../assets/15.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 15 :lub:"
+        },
+        {
+            "id": 16,
+            "image": "../assets/16.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 16 :lub:"
+        },
+        {
+            "id": 17,
+            "image": "../assets/17.png",
+            "name": "hotness",
+            "desc": "hot piks 17 :lub:"
+        },
+        {
+            "id": 18,
+            "image": "../assets/18.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 18 :lub:"
+        },
+        {
+            "id": 19,
+            "image": "../assets/19.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 19 :lub:"
+        },
+        {
+            "id": 20,
+            "image": "../assets/20.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 20 :lub:"
+        },
+        {
+            "id": 21,
+            "image": "../assets/21.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 21 :lub:"
+        },
+        {
+            "id": 22,
+            "image": "../assets/22.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 22 :lub:"
+        },
+        {
+            "id": 23,
+            "image": "../assets/23.jpeg",
+            "name": "hotness",
+            "desc": "hot piks 23 :lub:"
         }
     ]
 }

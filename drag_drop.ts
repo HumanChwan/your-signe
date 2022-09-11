@@ -149,6 +149,13 @@ class Cart {
         if (foundCartObject !== undefined) {
             foundCartObject.quantity += delta;
             this.modifyCartContent(foundCartObject);
+
+            if (this.cartContents.length === 0) {
+                document
+                    .querySelector('.dashed-placeholder')
+                    ?.classList.remove('hide');
+                this.listContainerElement.classList.add('center-me-nya');
+            }
             return true;
         }
         return false;
@@ -156,6 +163,13 @@ class Cart {
 
     addToCart = (shopObject: TShopObject) => {
         if (this.checkAndChangeQuantity(shopObject, 1)) return;
+
+        if (this.cartContents.length === 0) {
+            document
+                .querySelector('.dashed-placeholder')
+                ?.classList.add('hide');
+            this.listContainerElement.classList.remove('center-me-nya');
+        }
 
         this.cartContents.push({ ...shopObject, quantity: 1 });
         this.listContainerElement.appendChild(
