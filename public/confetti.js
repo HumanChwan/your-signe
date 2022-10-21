@@ -10,7 +10,7 @@
         const frag = document.createDocumentFragment();
         const className = `confetti-${random(300)}`;
         for (let i = 0; i < 100; i++) {
-            const styles = `transform: translate3d(${random(500) - 250}px, ${random(200) - 150}px, 0) rotate(${random(360)}deg); 
+            const styles = `transform: translate3d(${random(1000) - 250}px, ${random(500) - 150}px, 0) rotate(${random(360)}deg); 
             background: hsla(${random(360)}, 100%, 50%, 1);
             animation: bang 700ms ease-out forwards;
             opacity: 0`;
@@ -29,6 +29,10 @@
     class Cart {
         constructor(cartDiv, cartButton) {
             this.createToggleFunctionality = () => {
+                if (this.domButtonElement === null) {
+                    console.log('huh');
+                    return;
+                }
                 this.domButtonElement.addEventListener('click', () => {
                     this.openState = !this.openState;
                     if (this.openState) {

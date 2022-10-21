@@ -1,66 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Your Signe</title>
-        <link href="style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header class="navbar">
-            <a href="/"
-                ><img
-                    src="../assets/yoursigne logo.png"
-                    alt="logo"
-                    draggable="false"
-            /></a>
-            <div>
-                <button onclick="handleClick()" class="index-btn">
-                    SHOP
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="10"
-                        viewBox="0 0 20 20"
-                    >
-                        <path
-                            fill="#411530"
-                            d="M10,20A10,10,0,1,0,0,10,10,10,0,0,0,10,20ZM8.711,4.3l5.7,5.766L8.7,15.711,7.3,14.289l4.289-4.242L7.289,5.7Z"
-                        />
-                    </svg>
-                </button>
-            </div>
-        </header>
-        <main
-            class="index"
-            style="background-image: url('../assets/front page 1.png')"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Signe</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="/"
+        ><img src="../assets/yoursigne logo.png" alt="logo" draggable="false"
+      /></a>
+      <div>
+        <button onclick="handleClick()" class="index-btn">
+          SHOP
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="10"
+            viewBox="0 0 20 20"
+          >
+            <path
+              fill="#411530"
+              d="M10,20A10,10,0,1,0,0,10,10,10,0,0,0,10,20ZM8.711,4.3l5.7,5.766L8.7,15.711,7.3,14.289l4.289-4.242L7.289,5.7Z"
+            />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main
+      class="index"
+      style="background-image: url('../assets/front page 1.png')"
+    >
+      <button onclick="handleClick()" class="index-btn main-btn">
+        SHOP
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="3rem"
+          height="2rem"
+          viewBox="0 0 20 20"
         >
-            <button onclick="handleClick()" class="index-btn main-btn">
-                SHOP
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="3rem"
-                    height="2rem"
-                    viewBox="0 0 20 20"
-                >
-                    <path
-                        fill="#411530"
-                        d="M10,20A10,10,0,1,0,0,10,10,10,0,0,0,10,20ZM8.711,4.3l5.7,5.766L8.7,15.711,7.3,14.289l4.289-4.242L7.289,5.7Z"
-                    />
-                </svg>
-            </button>
-        </main>
-        <script>
-            const handleClick = () => {
-                const links = ['home', 'center', 'base'];
-                const a = document.createElement('a');
-                a.href = `./${links[Math.floor(Math.random() * 3)]}.html`;
+          <path
+            fill="#411530"
+            d="M10,20A10,10,0,1,0,0,10,10,10,0,0,0,10,20ZM8.711,4.3l5.7,5.766L8.7,15.711,7.3,14.289l4.289-4.242L7.289,5.7Z"
+          />
+        </svg>
+      </button>
+    </main>
+    <script>
+      const handleClick = () => {
+        const links = ['home', 'center', 'base'];
+        const a = document.createElement('a');
+        a.href = `./${links[Math.floor(Math.random() * links.length)]}.html`;
 
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-            };
-        </script>
-    </body>
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      };
+    </script>
+  </body>
 </html>
