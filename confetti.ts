@@ -1,7 +1,8 @@
+import confetti from 'canvas-confetti';
+
 {
   const shopSection = document.querySelector('.shop');
-  const cartToggleButton: HTMLButtonElement | null =
-    document.querySelector('.cart-toggle');
+  const cartToggleButton: HTMLButtonElement | null = document.querySelector('.cart-toggle');
   const cartDiv: HTMLElement | null = document.querySelector('.cart');
 
   type TShopObject = {
@@ -14,35 +15,33 @@
   type TShopList = {
     list: TShopObject[];
   };
-  const confetti = (button: HTMLButtonElement) => {
-    const random = (max: number) => {
-      return Math.floor(Math.random() * max);
-    };
+  // const confetti = (button: HTMLButtonElement) => {
+  //   const random = (max: number) => {
+  //     return Math.floor(Math.random() * max);
+  //   };
 
-    const frag = document.createDocumentFragment();
-    const className = `confetti-${random(300)}`;
+  //   const frag = document.createDocumentFragment();
+  //   const className = `confetti-${random(300)}`;
 
-    for (let i = 0; i < 100; i++) {
-      const styles = `transform: translate3d(${random(1000) - 250}px, ${
-        random(500) - 150
-      }px, 0) rotate(${random(360)}deg); 
-            background: hsla(${random(360)}, 100%, 50%, 1);
-            animation: bang 700ms ease-out forwards;
-            opacity: 0`;
+  //   for (let i = 0; i < 100; i++) {
+  //     const styles = `transform: translate3d(${random(400) - 250}px, ${random(400) - 150}px, 0) rotate(${random(360)}deg);
+  //           background: hsla(${random(360)}, 100%, 50%, 1);
+  //           animation: bang 1000ms ease-out forwards;
+  //           opacity: 0`;
 
-      var e = document.createElement('i');
-      e.classList.add(className);
-      e.style.cssText = styles.toString();
-      frag.appendChild(e);
-    }
-    button.append(frag);
+  //     var e = document.createElement('i');
+  //     e.classList.add(className);
+  //     e.style.cssText = styles.toString();
+  //     frag.appendChild(e);
+  //   }
+  //   button.append(frag);
 
-    setTimeout(() => {
-      document.querySelectorAll(`.${className}`).forEach((conf) => {
-        conf.remove();
-      });
-    }, 1000);
-  };
+  //   setTimeout(() => {
+  //     document.querySelectorAll(`.${className}`).forEach((conf) => {
+  //       conf.remove();
+  //     });
+  //   }, 1000);
+  // };
 
   class Cart {
     domElement: HTMLElement;
@@ -55,9 +54,7 @@
       this.domElement = cartDiv;
       this.openState = false;
       this.domButtonElement = cartButton;
-      this.listContainerElement = document.querySelector(
-        '.cart-object-container'
-      )!;
+      this.listContainerElement = document.querySelector('.cart-object-container')!;
       this.cartContents = [];
 
       this.createToggleFunctionality();
@@ -112,7 +109,7 @@
 
       const spanQuantityElement = document.createElement('span');
       spanQuantityElement.classList.add('quantity');
-      spanQuantityElement.innerText = 'Qty: x1';
+      spanQuantityElement.innerText = 'Quantity: x1';
 
       const incQtyButton = document.createElement('button');
       incQtyButton.textContent = '+';
@@ -139,32 +136,19 @@
       return divElement;
     };
 
-    modifyCartContent = (
-      foundCartObject: TShopObject & { quantity: number }
-    ) => {
+    modifyCartContent = (foundCartObject: TShopObject & { quantity: number }) => {
       if (foundCartObject.quantity === 0) {
-        const element = document.querySelector(
-          `#cart-object-${foundCartObject.id}`
-        ) as HTMLDivElement;
+        const element = document.querySelector(`#cart-object-${foundCartObject.id}`) as HTMLDivElement;
         this.listContainerElement.removeChild(element);
-        this.cartContents = this.cartContents.filter(
-          (cartObject) => cartObject.id !== foundCartObject.id
-        );
+        this.cartContents = this.cartContents.filter((cartObject) => cartObject.id !== foundCartObject.id);
         return;
       }
-      const contentElement = document.querySelector(
-        `#cart-object-${foundCartObject.id} > .cart-object-desc .quantity`
-      ) as HTMLDivElement;
-      contentElement.innerText = `Qty: x${foundCartObject.quantity}`;
+      const contentElement = document.querySelector(`#cart-object-${foundCartObject.id} > .cart-object-desc .quantity`) as HTMLDivElement;
+      contentElement.innerText = `Quantity: x${foundCartObject.quantity}`;
     };
 
-    checkAndChangeQuantity = (
-      shopObject: TShopObject,
-      delta: 1 | -1
-    ): boolean => {
-      const foundCartObject = this.cartContents.find(
-        (cartObject) => cartObject.id === shopObject.id
-      );
+    checkAndChangeQuantity = (shopObject: TShopObject, delta: 1 | -1): boolean => {
+      const foundCartObject = this.cartContents.find((cartObject) => cartObject.id === shopObject.id);
       if (foundCartObject !== undefined) {
         foundCartObject.quantity += delta;
         this.modifyCartContent(foundCartObject);
@@ -215,7 +199,8 @@
       divButtonElement.classList.add('card-button');
       const buttonElement = document.createElement('button');
       buttonElement.onclick = () => {
-        confetti(buttonElement);
+        // confetti(buttonElement);
+        confetti();
         cart.addToCart(shopObject);
       };
 

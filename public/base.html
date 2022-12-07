@@ -50,9 +50,23 @@
                     </div> -->
                 </div>
                 <div>
-                    <button class="index-btn">Proceed to Checkout</button>
+                    <button class="index-btn" onclick="proceedToCheckout()">Proceed to Checkout</button>
                 </div>
             </aside>
         </main>
+    <div class="gray-cover hide">
+      <div class="proceed-to-checkout-modal">
+        <div class="modal-border">
+          <h3>Your Shopping is done!</h3>
+          <a href="/" class="index-btn">Home</a>
+        </div>
+      </div>
+    </div>
     </body>
+  <script>
+    const proceedToCheckout = () => {
+      document.body.classList.add('modal-open');
+      document.querySelector('.gray-cover').classList.remove('hide');
+    };
+  </script>
 </html>

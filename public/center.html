@@ -1,26 +1,21 @@
 <!-- Normal wala hehe -->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home</title>
-        <script defer src="normal.js"></script>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <header class="navbar">
-            <a href="/"
-                ><img
-                    src="../assets/yoursigne logo.png"
-                    alt="logo"
-                    draggable="false"
-            /></a>
-        </header>
-        <main class="main">
-            <section class="shop">
-                <!--
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script defer src="normal.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="/"><img src="../assets/yoursigne logo.png" alt="logo" draggable="false" /></a>
+    </header>
+    <main class="main">
+      <section class="shop">
+        <!--
                     <div class="card">
                         <div class="card-img">
                             <img src="jsdfak" />
@@ -34,11 +29,11 @@
                         </div>
                     </div>
                 -->
-            </section>
-            <aside class="cart cart-open">
-                <button class="cart-toggle">&gt;&gt;</button>
-                <div class="cart-object-container">
-                    <!-- <div class="cart-object">
+      </section>
+      <aside class="cart cart-open">
+        <button class="cart-toggle">&gt;&gt;</button>
+        <div class="cart-object-container">
+          <!-- <div class="cart-object">
                         <div class="cart-object-img">
                             <img src="../assets/2.jpg" />
                         </div>
@@ -48,11 +43,25 @@
                             <span class='quantity'>Qty: X2</span>
                         </div>
                     </div> -->
-                </div>
-                <div>
-                    <button class="index-btn">Proceed to Checkout</button>
-                </div>
-            </aside>
-        </main>
-    </body>
+        </div>
+        <div>
+          <button class="index-btn" onclick="proceedToCheckout()">Proceed to Checkout</button>
+        </div>
+      </aside>
+    </main>
+    <div class="hide gray-cover">
+      <div class="proceed-to-checkout-modal">
+        <div class="modal-border">
+          <h3>Your Shopping is done!</h3>
+          <a href="/" class="index-btn">Home</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const proceedToCheckout = () => {
+      document.body.classList.add('modal-open');
+      document.querySelector('.gray-cover').classList.remove('hide');
+    };
+  </script>
 </html>

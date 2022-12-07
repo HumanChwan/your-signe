@@ -79,7 +79,7 @@
 
             const spanQuantityElement = document.createElement('span');
             spanQuantityElement.classList.add('quantity');
-            spanQuantityElement.innerText = 'Qty: x1';
+            spanQuantityElement.innerText = 'Quantity: x1';
 
             const incQtyButton = document.createElement('button');
             incQtyButton.textContent = '+';
@@ -122,7 +122,7 @@
             const contentElement = document.querySelector(
                 `#cart-object-${foundCartObject.id} > .cart-object-desc .quantity`
             ) as HTMLDivElement;
-            contentElement.innerText = `Qty: x${foundCartObject.quantity}`;
+            contentElement.innerText = `Quantity: x${foundCartObject.quantity}`;
         };
 
         checkAndChangeQuantity = (

@@ -40,7 +40,7 @@
                 qtyDivElement.classList.add('cart-object-qty');
                 const spanQuantityElement = document.createElement('span');
                 spanQuantityElement.classList.add('quantity');
-                spanQuantityElement.innerText = 'Qty: x1';
+                spanQuantityElement.innerText = 'Quantity: x1';
                 const incQtyButton = document.createElement('button');
                 incQtyButton.textContent = '+';
                 incQtyButton.onclick = () => {
@@ -70,7 +70,7 @@
                     return;
                 }
                 const contentElement = document.querySelector(`#cart-object-${foundCartObject.id} > .cart-object-desc .quantity`);
-                contentElement.innerText = `Qty: x${foundCartObject.quantity}`;
+                contentElement.innerText = `Quantity: x${foundCartObject.quantity}`;
             };
             this.checkAndChangeQuantity = (shopObject, delta) => {
                 const foundCartObject = this.cartContents.find((cartObject) => cartObject.id === shopObject.id);
