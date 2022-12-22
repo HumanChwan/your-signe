@@ -33,9 +33,24 @@ class Cart {
                     console.error(err);
                 }
             });
+
+            shopSection?.addEventListener('dragover', (e) => {
+                e.preventDefault();
+            });
+            shopSection?.addEventListener('drop', (e) => {
+                e.preventDefault();
+                try {
+                    const id = parseInt(e.dataTransfer.getData('id'));
+                    this.checkAndChangeQuantity(shopList[id - 1], -1);
+                }
+                catch (err) {
+                    console.error(err);
+                }
+            });
         };
         this.createCartElement = (shopObject) => {
             const divElement = document.createElement('div');
+            divElement.draggable = true;
             divElement.classList.add('cart-object');
             divElement.id = `cart-object-${shopObject.id}`;
             const divImgElement = document.createElement('div');
@@ -54,7 +69,7 @@ class Cart {
             qtyDivElement.classList.add('cart-object-qty');
             const spanQuantityElement = document.createElement('span');
             spanQuantityElement.classList.add('quantity');
-            spanQuantityElement.innerText = 'Quantity: x1';
+            spanQuantityElement.innerText = 'Quantity: 1';
             // const incQtyButton = document.createElement('button');
             // incQtyButton.textContent = '+';
             // incQtyButton.onclick = () => {
@@ -67,6 +82,13 @@ class Cart {
             //     this.checkAndChangeQuantity(shopObject, -1);
             // };
             // qtyDivElement.appendChild(incQtyButton);
+            //
+
+            divElement.addEventListener('dragstart', (e) => {
+                // e.preventDefault();
+                e.dataTransfer?.setData('id', `${shopObject.id}`);
+            });
+
             qtyDivElement.appendChild(spanQuantityElement);
             // qtyDivElement.appendChild(descQtyButton);
             divDescElement.appendChild(spanElement);
@@ -84,7 +106,7 @@ class Cart {
                 return;
             }
             const contentElement = document.querySelector(`#cart-object-${foundCartObject.id} > .cart-object-desc .quantity`);
-            contentElement.innerText = `Quantity: x${foundCartObject.quantity}`;
+            contentElement.innerText = `Quantity: ${foundCartObject.quantity}`;
         };
         this.checkAndChangeQuantity = (shopObject, delta) => {
             const foundCartObject = this.cartContents.find((cartObject) => cartObject.id === shopObject.id);

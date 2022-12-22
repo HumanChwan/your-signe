@@ -2,14 +2,14 @@
   const shopSection = document.querySelector('.shop');
   const cartToggleButton = document.querySelector('.cart-toggle');
   const cartDiv = document.querySelector('.cart');
-  // const confetti = (button: HTMLButtonElement) => {
-  //   const random = (max: number) => {
+  // const confettiWithOrigin = (button) => {
+  //   const random = (max) => {
   //     return Math.floor(Math.random() * max);
   //   };
   //   const frag = document.createDocumentFragment();
   //   const className = `confetti-${random(300)}`;
   //   for (let i = 0; i < 100; i++) {
-  //     const styles = `transform: translate3d(${random(400) - 250}px, ${random(400) - 150}px, 0) rotate(${random(360)}deg);
+  //     const styles = `transform: translate3d(${random(400)}px, ${random(400)}px, 0) rotate(${random(360)}deg);
   //           background: hsla(${random(360)}, 100%, 50%, 1);
   //           animation: bang 1000ms ease-out forwards;
   //           opacity: 0`;
@@ -65,19 +65,19 @@
         qtyDivElement.classList.add('cart-object-qty');
         const spanQuantityElement = document.createElement('span');
         spanQuantityElement.classList.add('quantity');
-        spanQuantityElement.innerText = 'Quantity: x1';
-        const incQtyButton = document.createElement('button');
-        incQtyButton.textContent = '+';
-        incQtyButton.onclick = () => {
-          console.log('click');
-          this.checkAndChangeQuantity(shopObject, 1);
-        };
+        spanQuantityElement.innerText = 'Quantity: 1';
+        // const incQtyButton = document.createElement('button');
+        // incQtyButton.textContent = '+';
+        // incQtyButton.onclick = () => {
+        //   console.log('click');
+        //   this.checkAndChangeQuantity(shopObject, 1);
+        // };
         const descQtyButton = document.createElement('button');
         descQtyButton.textContent = '-';
         descQtyButton.onclick = () => {
           this.checkAndChangeQuantity(shopObject, -1);
         };
-        qtyDivElement.appendChild(incQtyButton);
+        // qtyDivElement.appendChild(incQtyButton);
         qtyDivElement.appendChild(spanQuantityElement);
         qtyDivElement.appendChild(descQtyButton);
         divDescElement.appendChild(spanElement);
@@ -95,7 +95,7 @@
           return;
         }
         const contentElement = document.querySelector(`#cart-object-${foundCartObject.id} > .cart-object-desc .quantity`);
-        contentElement.innerText = `Quantity: x${foundCartObject.quantity}`;
+        contentElement.innerText = `Quantity: ${foundCartObject.quantity}`;
       };
       this.checkAndChangeQuantity = (shopObject, delta) => {
         const foundCartObject = this.cartContents.find((cartObject) => cartObject.id === shopObject.id);
@@ -146,12 +146,13 @@
       divButtonElement.classList.add('card-button');
       const buttonElement = document.createElement('button');
       buttonElement.onclick = () => {
-        // confetti(buttonElement);
+        // confettiWithOrigin(buttonElement);
         confetti({
-          particleCount: 500,
-          spread: 150,
+          particleCount: 200,
+          spread: 70,
           ticks: 500,
           gravity: 2,
+            origin: { x: (buttonElement.offsetLeft + buttonElement.offsetWidth / 2) / window.innerWidth, y: (buttonElement.offsetTop + buttonElement.offsetHeight / 2) / window.innerHeight }
         });
         cart.addToCart(shopObject);
       };

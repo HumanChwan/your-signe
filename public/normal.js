@@ -40,19 +40,19 @@
                 qtyDivElement.classList.add('cart-object-qty');
                 const spanQuantityElement = document.createElement('span');
                 spanQuantityElement.classList.add('quantity');
-                spanQuantityElement.innerText = 'Quantity: x1';
-                const incQtyButton = document.createElement('button');
-                incQtyButton.textContent = '+';
-                incQtyButton.onclick = () => {
-                    console.log('click');
-                    this.checkAndChangeQuantity(shopObject, 1);
-                };
+                spanQuantityElement.innerText = 'Quantity: 1';
+                // const incQtyButton = document.createElement('button');
+                // incQtyButton.textContent = '+';
+                // incQtyButton.onclick = () => {
+                //     console.log('click');
+                //     this.checkAndChangeQuantity(shopObject, 1);
+                // };
                 const descQtyButton = document.createElement('button');
                 descQtyButton.textContent = '-';
                 descQtyButton.onclick = () => {
                     this.checkAndChangeQuantity(shopObject, -1);
                 };
-                qtyDivElement.appendChild(incQtyButton);
+                // qtyDivElement.appendChild(incQtyButton);
                 qtyDivElement.appendChild(spanQuantityElement);
                 qtyDivElement.appendChild(descQtyButton);
                 divDescElement.appendChild(spanElement);
@@ -70,7 +70,7 @@
                     return;
                 }
                 const contentElement = document.querySelector(`#cart-object-${foundCartObject.id} > .cart-object-desc .quantity`);
-                contentElement.innerText = `Quantity: x${foundCartObject.quantity}`;
+                contentElement.innerText = `Quantity: ${foundCartObject.quantity}`;
             };
             this.checkAndChangeQuantity = (shopObject, delta) => {
                 const foundCartObject = this.cartContents.find((cartObject) => cartObject.id === shopObject.id);
