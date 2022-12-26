@@ -146,13 +146,12 @@
       divButtonElement.classList.add('card-button');
       const buttonElement = document.createElement('button');
       buttonElement.onclick = () => {
-        // confettiWithOrigin(buttonElement);
         confetti({
           particleCount: 200,
           spread: 70,
           ticks: 500,
           gravity: 2,
-            origin: { x: (buttonElement.offsetLeft + buttonElement.offsetWidth / 2) / window.innerWidth, y: (buttonElement.offsetTop + buttonElement.offsetHeight / 2) / window.innerHeight }
+            origin: { x: (buttonElement.offsetLeft + buttonElement.offsetWidth / 2) / window.innerWidth, y: (buttonElement.offsetTop + buttonElement.offsetHeight / 2 - window.scrollY) / window.innerHeight } 
         });
         cart.addToCart(shopObject);
       };
