@@ -18,15 +18,23 @@ app.get('/admin', (_, res) => {
 });
 
 app.get('/select', (_, res) => {
-    res.sendFile(path.join(__dirname, 'select.txt'));
+    try {
+        fs.readFileSync('/tmp/select.txt');
+        return res.sendFile('/tmp/select.txt');
+    } catch (_) {
+        return res.send('random');
+    }
 });
 
 app.post('/admin', (req, res) => {
     const select = req.body.select;
-    fs.writeFileSync(path.join(__dirname, 'select.txt'), select);
-    res.redirect('admin.html?done=true');
+    try {
+        fs.writeFileSync('/tmp/select.txt', select);
+        return res.redirect('admin.html?done=true');
+    } catch (_) {
+        return res.redirect('admin.html?done=false');
+    }
 });
 
-app.listen('5000', () => {
-    console.log("Server listening on 5000");
-});
+module.exports = app;
+

@@ -5,7 +5,8 @@
     "author": "Dinesh Chukkala <dineshchukkala169@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "nodemon index.js"
+        "start": "node index.js",
+        "dev": "nodemon index.js"
     },
     "devDependencies": {
         "nodemon": "^2.0.20",
