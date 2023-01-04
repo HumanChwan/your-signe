@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Admin</title>
+    </head>
+    <body>
+        <p>Presently selected: <span id="s" style="font-weight: 700;"></span></p>
+        <script>
+            fetch('select').then(res => res.text()).then((text) => {
+                document.getElementById('s').innerText = text;
+            }).catch((e) => {
+                console.error(e);
+                document.getElementById('s').innerText = "random";
+            });
+        </script>
+        <form action="/admin" method="post">
+            <input type="radio" name="select" value="drag-drop" id="drag-drop" />
+            <label for="drag-drop">drag-drop</label>
+            <input type="radio" name="select" value="normal" id="normal" />
+            <label for="normal">normal</label>
+            <input type="radio" name="select" value="confetti" id="confetti" />
+            <label for="confetti">confetti</label>
+            <input type="radio" name="select" value="random" id="random" />
+            <label for="random">random</label>
+            <input type="submit" value="Submit" />
+        </form>
+        <a href="/">Home</a>
+    </body>
+</html>

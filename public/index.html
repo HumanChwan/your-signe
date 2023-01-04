@@ -34,13 +34,30 @@
     </main>
     <script>
       const handleClick = () => {
-        const links = ['home', 'center', 'base'];
-        const a = document.createElement('a');
-        a.href = `./${links[Math.floor(Math.random() * links.length)]}.html`;
+        const move = (l) => {
+            console.log(l);
+            const a = document.createElement('a');
+            a.href = `./${l}.html`;
 
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+        const random = () => {
+            const links = ['home', 'center', 'base'];
+            move(links[Math.floor(Math.random() * links.length)])
+        }
+
+        fetch('/select').then(res => res.text()).then((text) => {
+            if (text === "drag-drop") move('base');
+            else if (text === "normal") move('center');
+            else if (text === "confetti") move('home');
+            else random();
+
+        }).catch(e => {
+            console.error(e);
+            random();
+        })
       };
     </script>
   </body>
