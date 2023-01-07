@@ -137,6 +137,43 @@
             "image": "../assets/23.jpeg",
             "name": "Bag",
             "desc": "<Description> 23"
-        }
+        },
+        {
+            "id": 24,
+            "image": "../assets/cap1.jpeg",
+            "name": "Cap",
+            "desc": "<Description> 24"
+        },
+       {
+            "id": 25,
+            "image": "../assets/cap2.jpeg",
+            "name": "Cap",
+            "desc": "<Description> 25"
+        },
+        {
+            "id": 26,
+            "image": "../assets/cap3.jpeg",
+            "name": "Cap",
+            "desc": "<Description> 26"
+        },
+        {
+            "id": 27,
+            "image": "../assets/cap4.jpeg",
+            "name": "Cap",
+            "desc": "<Description> 27"
+        },
+        {
+            "id": 28,
+            "image": "../assets/cap5.jpeg",
+            "name": "Cap",
+            "desc": "<Description> 28"
+        },
+        {
+            "id": 29,
+            "image": "../assets/cap6.jpeg",
+            "name": "Cap",
+            "desc": "<Description> 29"
+        },
+        
     ]
 }
