@@ -173,6 +173,42 @@
             "image": "../assets/cap6.jpeg",
             "name": "Cap",
             "desc": "<Description> 29"
+        },
+        {
+            "id": 30,
+            "image": "../assets/bottle1.jpeg",
+            "name": "Bottle",
+            "desc": "<Description> 24"
+        },
+        {
+            "id": 31,
+            "image": "../assets/bottle2.jpeg",
+            "name": "Bottle",
+            "desc": "<Description> 24"
+        },
+        {
+            "id": 32,
+            "image": "../assets/bottle3.jpeg",
+            "name": "Bottle",
+            "desc": "<Description> 24"
+        },
+        {
+            "id": 33,
+            "image": "../assets/bottle4.jpeg",
+            "name": "Bottle",
+            "desc": "<Description> 24"
+        },
+        {
+            "id": 34,
+            "image": "../assets/bottle5.jpeg",
+            "name": "Bottle",
+            "desc": "<Description> 24"
+        },
+        {
+            "id": 35,
+            "image": "../assets/bottle6.jpeg",
+            "name": "Bottle",
+            "desc": "<Description> 24"
         }
         
     ]
