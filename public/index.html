@@ -8,6 +8,31 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="gray-cover">
+      <div class="index-modal">
+        <div class="modal-border" style="position: relative;">
+            <iframe src="./Participant Consent.pdf" width="100%" height="90%" ></iframe>
+            <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 1rem;">
+                <div>
+                    <input type="checkbox" id="consent" onclick="toggleButton()"/>
+                    <label for="consent">I Agree to Participate</label>
+                </div>
+                <button disabled id="modal-btn" onclick="modalClose()">Proceed</button>
+                <script>
+                    const btn = document.querySelector('#modal-btn');
+                    const checkbox = document.querySelector('#consent');
+                    const modal = document.querySelector('.gray-cover');
+                    const toggleButton = () => {
+                        btn.disabled = !checkbox.checked;
+                    }
+                    const modalClose = () => {
+                        modal.classList.add('hide');
+                    }
+                </script>
+            </div>
+        </div>
+      </div>
+    </div>
     <header class="navbar">
       <a href="/"
         ><img src="assets/yoursigne logo.png" alt="logo" draggable="false"

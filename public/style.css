@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 *,
 *::after,
 *::before {
@@ -350,6 +349,25 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.index-modal {
+    background: white;
+    border-radius: 0.25rem;
+    height: 600px;
+    width: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.index-modal h3 {
+    font-size: 1.5rem;
+}
+.index-modal pre {
+    font-family: Poppins;
+    font-size: 0.75rem;
 }
 
 .modal-border {
