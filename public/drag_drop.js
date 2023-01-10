@@ -27,7 +27,8 @@ class Cart {
                 e.preventDefault();
                 try {
                     const id = parseInt(e.dataTransfer.getData('id'));
-                    this.addToCart(shopList[id - 1]);
+                    const item = shopList.find(i => i.id === id)
+                    this.addToCart(item);
                 }
                 catch (err) {
                     console.error(err);
@@ -41,7 +42,8 @@ class Cart {
                 e.preventDefault();
                 try {
                     const id = parseInt(e.dataTransfer.getData('id'));
-                    this.checkAndChangeQuantity(shopList[id - 1], -1);
+                    const item = shopList.find(i => i.id === id)
+                    this.checkAndChangeQuantity(item, -1);
                 }
                 catch (err) {
                     console.error(err);
@@ -70,22 +72,8 @@ class Cart {
             const spanQuantityElement = document.createElement('span');
             spanQuantityElement.classList.add('quantity');
             spanQuantityElement.innerText = 'Quantity: 1';
-            // const incQtyButton = document.createElement('button');
-            // incQtyButton.textContent = '+';
-            // incQtyButton.onclick = () => {
-            //     console.log('click');
-            //     this.checkAndChangeQuantity(shopObject, 1);
-            // };
-            // const descQtyButton = document.createElement('button');
-            // descQtyButton.textContent = '-';
-            // descQtyButton.onclick = () => {
-            //     this.checkAndChangeQuantity(shopObject, -1);
-            // };
-            // qtyDivElement.appendChild(incQtyButton);
-            //
 
             divElement.addEventListener('dragstart', (e) => {
-                // e.preventDefault();
                 e.dataTransfer?.setData('id', `${shopObject.id}`);
             });
 
