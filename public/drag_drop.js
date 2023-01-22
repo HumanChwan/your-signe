@@ -171,7 +171,8 @@ const appendData = (shopList) => {
 };
 const main = async () => {
     const data = await getData();
-    const shopChildren = appendData(data.list.sort((a, b) => Math.random() > 0.5 ? 1 : -1));
+    // .sort((a, b) => Math.random() > 0.5 ? 1 : -1)
+    const shopChildren = appendData(data.list);
     const cart = new Cart(cartDiv, cartToggleButton);
     shopChildren.forEach((shopElement, idx) => {
         shopElement.addEventListener('dragstart', (e) => {

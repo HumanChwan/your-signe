@@ -4,187 +4,223 @@
             "id": 1,
             "image": "../assets/1.jpeg",
             "name": "Trekking Bag",
+            "desc": ""
             
         },
         {
             "id": 2,
             "image": "../assets/2.jpeg",
             "name": "Trekking Bag",
+            "desc": ""
             
         },
         {
             "id": 3,
           "image": "../assets/trackpants1.jpeg",
             "name": "Unisex Trekking Trackpants",
+            "desc": ""
            
         },
         {
             "id": 4,
         "image": "../assets/trackpants2.jpeg",
             "name": "Unisex Trekking Trackpants",
+            "desc": ""
         },
         {
             "id": 5,
       "image": "../assets/trackpants3.jpeg",
             "name": "Unisex Trekking Trackpants",
+            "desc": ""
         },
         {
             "id": 6,
             "image": "../assets/shoe1.jpeg",
             "name": "Unisex Trekking Shoe",
+            "desc": ""
         },
         {
             "id": 7,
             "image": "../assets/shoe2.jpeg",
             "name": "Unisex Trekking Shoe",
+            "desc": ""
         },
         {
             "id": 8,
             "image": "../assets/shoe3.jpeg",
             "name": "Unisex Trekking Shoe",
+            "desc": ""
         },
         {
             "id": 9,
             "image": "../assets/cap1.jpeg",
             "name": "Cap",
+            "desc": ""
         },
         {
             "id": 10,
             "image": "../assets/cap2.jpeg",
             "name": "Cap",
+            "desc": ""
         },
         {
             "id": 11,
             "image": "../assets/cap3.jpeg",
             "name": "Cap",
+            "desc": ""
         },
         {
             "id": 12,
             "image": "../assets/flashlight1.jpeg",
             "name": "Flashlight",
+            "desc": ""
         },
         {
             "id": 13,
          "image": "../assets/flashlight2.jpeg",
             "name": "Flashlight",
+            "desc": ""
         },
         {
             "id": 14,
             "image": "../assets/flashlight3.jpeg",
             "name": "Flashlight",
+            "desc": ""
         },
          {
             "id": 15,
             "image": "../assets/wet_tissues2.jpeg",
             "name": "Wet Tissues",
+            "desc": ""
         },
          {
             "id": 16,
             "image": "../assets/wet_tissues3.jpeg",
             "name": "Wet tissues",
+            "desc": ""
         },
         {
             "id": 17,
             "image": "../assets/toilet_paper1.jpeg",
             "name": "Toilet Paper",
+            "desc": ""
         },
            {
             "id": 18,
             "image": "../assets/toothpaste.jpeg",
             "name": "Tooth Brush",
+            "desc": ""
         },
          {
             "id": 19,
             "image": "../assets/toothbrush.jpeg",
             "name": "Tooth Paste",
+            "desc": ""
         },
          {
             "id": 20,
             "image": "../assets/mouthwash.jpeg",
             "name": "Mouth Wash",
+            "desc": ""
         },
                  {
             "id": 21,
             "image": "../assets/facemask.jpeg",
             "name": "Face Mask",
+            "desc": ""
         },
           {
             "id": 22,
             "image": "../assets/lip balm.jpeg",
             "name": "Lip Balm",
+            "desc": ""
         },
             {
             "id": 23,
             "image": "../assets/deodrent.jpeg",
             "name": "Deodorant",
+            "desc": ""
         },
            {
             "id": 24,
             "image": "../assets/facewash.jpeg",
             "name": "Facewash",
+            "desc": ""
         },
          {
             "id": 25,
             "image": "../assets/facewash.jpeg",
             "name": "Facewash",
+            "desc": ""
         },
         
          {
             "id": 26,
             "image": "../assets/sanitizer.jpeg",
             "name": "Sanitizer",
+            "desc": ""
         },
         
          {
             "id": 27,
             "image": "../assets/Boroplus.jpeg",
             "name": "Boroplus",
+            "desc": ""
         },
          {
             "id": 28,
             "image": "../assets/choclate1.jpeg",
             "name": "Chocolate",
+            "desc": ""
         },
          {
             "id": 28,
             "image": "../assets/choclate2.jpeg",
             "name": "Colored Chocolates",
+            "desc": ""
         },
         {
             "id": 29,
             "image": "../assets/buiscits1.jpeg",
             "name": "Biscuits",
+            "desc": ""
         },
            {
             "id": 30,
             "image": "../assets/noodles.jpeg",
             "name": "Instant Noodles",
+            "desc": ""
         },
            {
             "id": 31,
             "image": "../assets/noodles2.jpeg",
             "name": "Spicy Instant Noodles",
+            "desc": ""
         },
          {
             "id": 32,
             "image": "../assets/muesli1.jpeg",
             "name": "Muesli",
+            "desc": ""
         },
           {
             "id": 33,
             "image": "../assets/coffee_1.jpeg",
             "name": "Coffee",
+            "desc": ""
         },
         
           {
             "id": 34,
             "image": "../assets/tea1.jpeg",
             "name": "Tea",
+            "desc": ""
         },
           {
             "id": 35,
             "image": "../assets/sugar_1.jpeg",
             "name": "Sugar",
+            "desc": ""
         }
 
     ]
