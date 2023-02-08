@@ -177,9 +177,9 @@ aside {
 }
 
 .card {
-    padding: 1rem;
+    padding-bottom: 1rem;
     border: 1px solid black;
-    width: 18rem;
+    width: 17rem;
 
     display: flex;
     justify-content: center;
@@ -225,7 +225,8 @@ aside {
 }
 
 .card-img img {
-    height: 16rem;
+    width: calc(17rem - 1px);
+    height: 17rem;
 }
 
 .cart-object {
