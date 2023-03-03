@@ -124,7 +124,7 @@
         
          {
             "id": 17,
-            "image": "../assets/17.jpeg",
+            "image": "../assets/22.jpeg",
             "name": "Trekking Bag",
             "desc": ""
             
@@ -457,8 +457,8 @@
         },
          {
             "id": 61,
-            "image": "../assets/facewash.jpeg",
-            "name": "Facewash_2",
+            "image": "../assets/facewash_2.jpeg",
+            "name": "Facewash",
             "desc": ""
         },
         
