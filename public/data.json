@@ -4,49 +4,56 @@
             "id": 1,
             "image": "../assets/1.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         {
             "id": 2,
             "image": "../assets/2.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
           {
             "id": 3,
             "image": "../assets/3.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         {
             "id": 4,
             "image": "../assets/4.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
           {
             "id": 5,
             "image": "../assets/5.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+           "desc": "",
+            "price": ""
             
         },
         {
             "id": 6,
             "image": "../assets/6.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+           "desc": "",
+            "price": ""
             
         },
          {
             "id": 7,
             "image": "../assets/7.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -54,15 +61,16 @@
             "id": 8,
             "image": "../assets/8.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
-            
+            "desc": "",
+            "price": ""
         },
         
          {
             "id": 9,
             "image": "../assets/9.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+           "desc": "",
+            "price": ""
             
         },
         
@@ -70,7 +78,8 @@
             "id": 10,
             "image": "../assets/10.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -78,7 +87,8 @@
             "id": 11,
             "image": "../assets/11.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+           "desc": "",
+            "price": ""
             
         },
         
@@ -86,7 +96,8 @@
             "id": 12,
             "image": "../assets/12.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+           "desc": "",
+            "price": ""
             
         },
         
@@ -94,7 +105,8 @@
             "id": 13,
             "image": "../assets/13.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -102,7 +114,8 @@
             "id": 14,
             "image": "../assets/14.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -110,7 +123,8 @@
             "id": 15,
             "image": "../assets/15.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+          "desc": "",
+            "price": ""
             
         }, 
         
@@ -118,7 +132,8 @@
             "id": 16,
             "image": "../assets/16.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -126,14 +141,16 @@
             "id": 17,
             "image": "../assets/22.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+           "desc": "",
+            "price": ""
             
         },
          {
             "id": 18,
             "image": "../assets/18.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+          "desc": "",
+            "price": ""
             
         },
         
@@ -141,7 +158,8 @@
             "id": 19,
             "image": "../assets/19.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -149,7 +167,8 @@
             "id": 20,
             "image": "../assets/20.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -157,7 +176,8 @@
             "id": 21,
             "image": "../assets/21.jpeg",
             "name": "Trekking Bag",
-            "desc": ""
+            "desc": "",
+            "price": ""
             
         },
         
@@ -165,365 +185,422 @@
             "id": 22,
           "image": "../assets/trackpants1.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+           "desc": "",
+            "price": ""
            
         },
         {
             "id": 23,
         "image": "../assets/trackpants2.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
             "id": 24,
       "image": "../assets/trackpants3.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
          {
             "id": 25,
       "image": "../assets/trackpants4.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
          {
             "id": 26,
       "image": "../assets/trackpants5.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
          {
             "id": 27,
       "image": "../assets/trackpants6.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
          {
             "id": 28,
       "image": "../assets/trackpants7.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
         
          {
             "id": 29,
       "image": "../assets/trackpants8.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
          {
             "id": 30,
       "image": "../assets/trackpants9.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
-            "id": 26,
+            "id": 31,
             "image": "../assets/shoe1.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
-            "id": 27,
+            "id": 32,
             "image": "../assets/shoe2.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
-            "id": 28,
+            "id": 33,
             "image": "../assets/shoe3.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 29,
+            "id": 34,
             "image": "../assets/shoe4.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 30,
+            "id": 35,
             "image": "../assets/shoe5.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
             {
-            "id": 31,
+            "id": 36,
             "image": "../assets/shoe6.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
             {
-            "id": 32,
+            "id": 37,
             "image": "../assets/shoe7.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
             {
-            "id": 33,
+            "id": 38,
             "image": "../assets/shoe8.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+           "desc": "",
+            "price": ""
         },    {
-            "id": 34,
+            "id": 39,
             "image": "../assets/shoe9.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
        
         {
-            "id": 35,
+            "id": 40,
             "image": "../assets/cap1.jpeg",
             "name": "Cap",
-            "desc": ""
+           "desc": "",
+            "price": ""
         },
         {
-            "id": 36,
+            "id": 41,
             "image": "../assets/cap2.jpeg",
             "name": "Cap",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
-            "id": 37,
+            "id": 42,
             "image": "../assets/cap3.jpeg",
             "name": "Cap",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
          {
-            "id": 38,
+            "id": 43,
             "image": "../assets/cap4.jpeg",
             "name": "Cap",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
          {
-            "id": 38,
+            "id": 44,
             "image": "../assets/cap5.jpeg",
             "name": "Cap",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 39,
+            "id": 45,
             "image": "../assets/cap6.jpeg",
             "name": "Cap",
-            "desc": ""
+           "desc": "",
+            "price": ""
         },
         
          {
-            "id": 40,
+            "id": 46,
             "image": "../assets/cap7.jpeg",
             "name": "Cap",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 41,
+            "id": 47,
             "image": "../assets/cap8.jpeg",
             "name": "Cap",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
             {
-            "id": 42,
+            "id": 48,
             "image": "../assets/cap9.jpeg",
             "name": "Cap",
-            "desc": ""
+          "desc": "",
+            "price": ""
         },
           {
-            "id": 43,
+            "id": 49,
             "image": "../assets/bottle1.jpeg",
             "name": "Water Bottle",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
         
             {
-            "id": 44,
+            "id": 50,
             "image": "../assets/bottle2.jpeg",
             "name": "Water Bottle",
-            "desc": ""
+           "desc": "",
+            "price": ""
         },
         
             {
-            "id": 44,
+            "id": 51,
             "image": "../assets/bottle3.jpeg",
             "name": "Water Bottle",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
         
             {
-            "id": 45,
+            "id": 52,
             "image": "../assets/bottle4.jpeg",
             "name": "Water Bottle",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
             {
-            "id": 46,
+            "id": 53,
             "image": "../assets/bottle5.jpeg",
             "name": "Water Bottle",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
             {
-            "id": 47,
+            "id": 54,
             "image": "../assets/bottle6.jpeg",
             "name": "Water Bottle",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
-            "id": 48,
+            "id": 55,
             "image": "../assets/flashlight1.jpeg",
             "name": "Flashlight",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
-            "id": 49,
+            "id": 56,
          "image": "../assets/flashlight2.jpeg",
             "name": "Flashlight",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
         {
-            "id": 50,
+            "id": 57,
             "image": "../assets/flashlight3.jpeg",
             "name": "Flashlight",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 51,
+            "id": 58,
             "image": "../assets/wet_tissues2.jpeg",
             "name": "Wet Tissues",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 52,
+            "id": 59,
             "image": "../assets/wet_tissues3.jpeg",
             "name": "Wet tissues",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
         {
-            "id": 53,
+            "id": 60,
             "image": "../assets/toilet_paper1.jpeg",
             "name": "Toilet Paper",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
            {
-            "id": 54,
+            "id": 61,
             "image": "../assets/toothpaste.jpeg",
             "name": "Tooth Brush",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 55,
+            "id": 62,
             "image": "../assets/toothbrush.jpeg",
             "name": "Tooth Paste",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 56,
+            "id": 63,
             "image": "../assets/mouthwash.jpeg",
             "name": "Mouth Wash",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
                  {
-            "id": 57,
+            "id": 64,
             "image": "../assets/facemask.jpeg",
             "name": "Face Mask",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
           {
-            "id": 58,
+            "id": 65,
             "image": "../assets/lip balm.jpeg",
             "name": "Lip Balm",
-            "desc": ""
+           "desc": "",
+            "price": ""
         },
             {
-            "id": 59,
+            "id": 66,
             "image": "../assets/deodrent.jpeg",
             "name": "Deodorant",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
            {
-            "id": 60,
+            "id": 67,
             "image": "../assets/facewash.jpeg",
             "name": "Facewash",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
          {
-            "id": 61,
+            "id": 68,
             "image": "../assets/facewash_2.jpeg",
             "name": "Facewash",
-            "desc": ""
+             "desc": "",
+            "price": ""
         },
         
          {
-            "id": 62,
+            "id": 69,
             "image": "../assets/sanitizer.jpeg",
             "name": "Sanitizer",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
  
          {
-            "id": 63,
+            "id": 70,
             "image": "../assets/choclate1.jpeg",
             "name": "Chocolate",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 64,
+            "id": 71,
             "image": "../assets/choclate2.jpeg",
             "name": "Colored Chocolates",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         {
-            "id": 65,
+            "id": 72,
             "image": "../assets/buiscits1.jpeg",
             "name": "Biscuits",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
            {
-            "id": 66,
+            "id": 73,
             "image": "../assets/noodles.jpeg",
             "name": "Instant Noodles",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
            {
-            "id": 67,
+            "id": 74,
             "image": "../assets/noodles2.jpeg",
             "name": "Spicy Instant Noodles",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
          {
-            "id": 68,
+            "id": 75,
             "image": "../assets/muesli1.jpeg",
             "name": "Muesli",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
           {
-            "id": 69,
+            "id": 76,
             "image": "../assets/coffee_1.jpeg",
             "name": "Coffee",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
         
           {
-            "id": 70,
+            "id": 77,
             "image": "../assets/tea1.jpeg",
             "name": "Tea",
-            "desc": ""
+            "desc": "",
+            "price": ""
         },
           {
-            "id": 71,
+            "id": 78,
             "image": "../assets/sugar_1.jpeg",
             "name": "Sugar",
-            "desc": ""
+            "desc": "",
+            "price": ""
         }
 
     ]
