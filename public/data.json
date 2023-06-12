@@ -4,7 +4,7 @@
             "id": 1,
             "image": "../assets/1.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -12,7 +12,7 @@
             "id": 2,
             "image": "../assets/2.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
              "price": "2499"
             
         },
@@ -20,7 +20,7 @@
             "id": 3,
             "image": "../assets/3.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -28,7 +28,7 @@
             "id": 4,
             "image": "../assets/4.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
              "price": "2499"
             
         },
@@ -36,7 +36,7 @@
             "id": 5,
             "image": "../assets/5.jpeg",
             "name": "Trekking Bag",
-           "desc": "",
+           "desc": "Rs 2499",
           "price": "2499"
             
         },
@@ -44,7 +44,7 @@
             "id": 6,
             "image": "../assets/6.jpeg",
             "name": "Trekking Bag",
-           "desc": "",
+           "desc": "Rs 2499",
           "price": "2499"
             
         },
@@ -52,7 +52,7 @@
             "id": 7,
             "image": "../assets/7.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
            "price": "2499"
             
         },
@@ -61,7 +61,7 @@
             "id": 8,
             "image": "../assets/8.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
         },
         
@@ -69,7 +69,7 @@
             "id": 9,
             "image": "../assets/9.jpeg",
             "name": "Trekking Bag",
-           "desc": "",
+           "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -78,7 +78,7 @@
             "id": 10,
             "image": "../assets/10.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -87,7 +87,7 @@
             "id": 11,
             "image": "../assets/11.jpeg",
             "name": "Trekking Bag",
-           "desc": "",
+           "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -96,7 +96,7 @@
             "id": 12,
             "image": "../assets/12.jpeg",
             "name": "Trekking Bag",
-           "desc": "",
+           "desc": "Rs 2499",
           "price": "2499"
         },
         
@@ -104,7 +104,7 @@
             "id": 13,
             "image": "../assets/13.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
          "price": "2499"
             
         },
@@ -113,7 +113,7 @@
             "id": 14,
             "image": "../assets/14.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -122,7 +122,7 @@
             "id": 15,
             "image": "../assets/15.jpeg",
             "name": "Trekking Bag",
-          "desc": "",
+          "desc": "Rs 2499",
          "price": "2499"
         }, 
         
@@ -130,7 +130,7 @@
             "id": 16,
             "image": "../assets/16.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -139,7 +139,7 @@
             "id": 17,
             "image": "../assets/22.jpeg",
             "name": "Trekking Bag",
-           "desc": "",
+           "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -147,7 +147,7 @@
             "id": 18,
             "image": "../assets/18.jpeg",
             "name": "Trekking Bag",
-          "desc": "",
+          "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -156,7 +156,7 @@
             "id": 19,
             "image": "../assets/19.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
            "price": "2499"
             
         },
@@ -165,7 +165,7 @@
             "id": 20,
             "image": "../assets/20.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -174,7 +174,7 @@
             "id": 21,
             "image": "../assets/21.jpeg",
             "name": "Trekking Bag",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
             
         },
@@ -183,7 +183,7 @@
             "id": 22,
           "image": "../assets/trackpants1.jpeg",
             "name": "Unisex Trekking Trackpants",
-           "desc": "",
+           "desc": "Rs 2499",
            "price": "2499"
            
         },
@@ -191,14 +191,14 @@
             "id": 23,
         "image": "../assets/trackpants2.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
         },
         {
             "id": 24,
       "image": "../assets/trackpants3.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
         },
         
@@ -206,7 +206,7 @@
             "id": 25,
       "image": "../assets/trackpants4.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
         },
         
@@ -214,7 +214,7 @@
             "id": 26,
       "image": "../assets/trackpants5.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
         },
         
@@ -222,7 +222,7 @@
             "id": 27,
       "image": "../assets/trackpants6.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": "",
+            "desc": "Rs 2499",
            "price": "2499"
         },
         
@@ -230,7 +230,7 @@
             "id": 28,
       "image": "../assets/trackpants7.jpeg",
             "name": "Unisex Trekking Trackpants",
-             "desc": "",
+             "desc": "Rs 2499",
              "price": "2499"
         },
         
@@ -238,7 +238,7 @@
             "id": 29,
       "image": "../assets/trackpants8.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": "",
+            "desc": "Rs 2499",
            "price": "2499"
         },
         
@@ -246,42 +246,42 @@
             "id": 30,
       "image": "../assets/trackpants9.jpeg",
             "name": "Unisex Trekking Trackpants",
-            "desc": "",
+            "desc": "Rs 2499",
             "price": "2499"
         },
         {
             "id": 31,
             "image": "../assets/shoe1.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": "",
+            "desc": "Rs 1499",
             "price": "1499"
         },
         {
             "id": 32,
             "image": "../assets/shoe2.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": "",
+            "desc": "Rs 1499",
            "price": "1499"
         },
         {
             "id": 33,
             "image": "../assets/shoe3.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": "",
+            "desc": "Rs 1499",
             "price": "1499"
         },
          {
             "id": 34,
             "image": "../assets/shoe4.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": "",
+            "desc": "Rs 1499",
             "price": "1499"
         },
          {
             "id": 35,
             "image": "../assets/shoe5.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": "",
+            "desc": "Rs 1499",
             "price": "1499"
         },
         
@@ -289,7 +289,7 @@
             "id": 36,
             "image": "../assets/shoe6.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": "",
+            "desc": "Rs 1499",
             "price": "1499"
         },
         
@@ -297,7 +297,7 @@
             "id": 37,
             "image": "../assets/shoe7.jpeg",
             "name": "Unisex Trekking Shoe",
-            "desc": "",
+            "desc": "Rs 1499",
            "price": "1499"
         },
         
@@ -305,13 +305,13 @@
             "id": 38,
             "image": "../assets/shoe8.jpeg",
             "name": "Unisex Trekking Shoe",
-           "desc": "",
+           "desc": "Rs 1499",
             "price": "1499"
         },    {
             "id": 39,
             "image": "../assets/shoe9.jpeg",
             "name": "Unisex Trekking Shoe",
-             "desc": "",
+             "desc": "Rs 1499",
             "price": "1499"
         },
        
@@ -319,21 +319,21 @@
             "id": 40,
             "image": "../assets/cap1.jpeg",
             "name": "Cap",
-           "desc": "",
+           "desc": "Rs 195",
             "price": "195"
         },
         {
             "id": 41,
             "image": "../assets/cap2.jpeg",
             "name": "Cap",
-            "desc": "",
+            "desc": "Rs 195",
            "price": "195"
         },
         {
             "id": 42,
             "image": "../assets/cap3.jpeg",
             "name": "Cap",
-            "desc": "",
+            "desc": "Rs 195",
            "price": "195"
         },
         
@@ -341,7 +341,7 @@
             "id": 43,
             "image": "../assets/cap4.jpeg",
             "name": "Cap",
-            "desc": "",
+            "desc": "Rs 195",
            "price": "195"
         },
         
@@ -349,14 +349,14 @@
             "id": 44,
             "image": "../assets/cap5.jpeg",
             "name": "Cap",
-            "desc": "",
+            "desc": "Rs 195",
              "price": "195"
         },
          {
             "id": 45,
             "image": "../assets/cap6.jpeg",
             "name": "Cap",
-           "desc": "",
+           "desc": "Rs 195",
            "price": "195"
         },
         
@@ -364,14 +364,14 @@
             "id": 46,
             "image": "../assets/cap7.jpeg",
             "name": "Cap",
-            "desc": "",
+            "desc": "Rs 195",
             "price": "195"
         },
          {
             "id": 47,
             "image": "../assets/cap8.jpeg",
             "name": "Cap",
-            "desc": "",
+            "desc": "Rs 195",
              "price": "195"
         },
         
@@ -379,14 +379,14 @@
             "id": 48,
             "image": "../assets/cap9.jpeg",
             "name": "Cap",
-          "desc": "",
+          "desc": "Rs 195",
             "price": "195"
         },
           {
             "id": 49,
             "image": "../assets/bottle1.jpeg",
             "name": "Water Bottle",
-             "desc": "",
+             "desc": "Rs 590",
             "price": "590"
         },
         
@@ -394,7 +394,7 @@
             "id": 50,
             "image": "../assets/bottle2.jpeg",
             "name": "Water Bottle",
-           "desc": "",
+           "desc": "Rs 590",
             "price": "590"
         },
         
@@ -402,7 +402,7 @@
             "id": 51,
             "image": "../assets/bottle3.jpeg",
             "name": "Water Bottle",
-             "desc": "",
+             "desc": "Rs 590",
              "price": "590"
         },
         
@@ -410,7 +410,7 @@
             "id": 52,
             "image": "../assets/bottle4.jpeg",
             "name": "Water Bottle",
-            "desc": "",
+            "desc": "Rs 590",
             "price": "590"
         },
         
@@ -418,112 +418,112 @@
             "id": 53,
             "image": "../assets/bottle5.jpeg",
             "name": "Water Bottle",
-            "desc": "",
+            "desc": "Rs 590",
              "price": "590"
         },
             {
             "id": 54,
             "image": "../assets/bottle6.jpeg",
             "name": "Water Bottle",
-            "desc": "",
+            "desc": "Rs 590",
             "price": "590"
         },
         {
             "id": 55,
             "image": "../assets/flashlight1.jpeg",
             "name": "Flashlight",
-            "desc": "",
+            "desc": "Rs 590",
              "price": "590"
         },
         {
             "id": 56,
          "image": "../assets/flashlight2.jpeg",
             "name": "Flashlight",
-             "desc": "",
+             "desc": "Rs 250",
             "price": "250"
         },
         {
             "id": 57,
             "image": "../assets/flashlight3.jpeg",
             "name": "Flashlight",
-            "desc": "",
+            "desc": "Rs 250",
            "price": "250"
         },
          {
             "id": 58,
             "image": "../assets/wet_tissues2.jpeg",
             "name": "Wet Tissues",
-            "desc": "",
+            "desc": "Rs 50",
             "price": "50"
         },
          {
             "id": 59,
             "image": "../assets/wet_tissues3.jpeg",
             "name": "Wet tissues",
-             "desc": "",
+             "desc": "Rs 50",
             "price": "50"
         },
         {
             "id": 60,
             "image": "../assets/toilet_paper1.jpeg",
             "name": "Toilet Paper",
-            "desc": "",
+            "desc": "Rs 50",
             "price": "50"
         },
            {
             "id": 61,
             "image": "../assets/toothpaste.jpeg",
             "name": "Tooth Brush",
-            "desc": "",
+            "desc": "Rs 35",
             "price": "35"
         },
          {
             "id": 62,
             "image": "../assets/toothbrush.jpeg",
             "name": "Tooth Paste",
-            "desc": "",
+            "desc": "Rs 35",
             "price": "35"
         },
          {
             "id": 63,
             "image": "../assets/mouthwash.jpeg",
             "name": "Mouth Wash",
-            "desc": "",
+            "desc": "Rs 50",
             "price": "50"
         },
                  {
             "id": 64,
             "image": "../assets/facemask.jpeg",
             "name": "Face Mask",
-            "desc": "",
+            "desc": "Rs 80",
             "price": "80"
         },
           {
             "id": 65,
             "image": "../assets/lip balm.jpeg",
             "name": "Lip Balm",
-           "desc": "",
+           "desc": "Rs 45",
             "price": "45"
         },
             {
             "id": 66,
             "image": "../assets/deodrent.jpeg",
             "name": "Deodorant",
-            "desc": "",
+            "desc": "Rs 130",
             "price": "130"
         },
            {
             "id": 67,
             "image": "../assets/facewash.jpeg",
             "name": "Facewash",
-             "desc": "",
+             "desc": "Rs 90",
             "price": "90"
         },
          {
             "id": 68,
             "image": "../assets/facewash_2.jpeg",
             "name": "Facewash",
-             "desc": "",
+             "desc": "Rs 90",
             "price": "90"
         },
         
@@ -531,7 +531,7 @@
             "id": 69,
             "image": "../assets/sanitizer.jpeg",
             "name": "Sanitizer",
-            "desc": "",
+            "desc": "Rs 30",
             "price": "30"
         },
         
@@ -540,49 +540,49 @@
             "id": 70,
             "image": "../assets/choclate1.jpeg",
             "name": "Chocolate",
-            "desc": "",
+            "desc": "RS 150",
             "price": "150"
         },
          {
             "id": 71,
             "image": "../assets/choclate2.jpeg",
             "name": "Colored Chocolates",
-            "desc": "",
+            "desc": "Rs 75",
             "price": "75"
         },
         {
             "id": 72,
             "image": "../assets/buiscits1.jpeg",
             "name": "Biscuits",
-            "desc": "",
+            "desc": "Rs 35",
             "price": ""
         },
            {
             "id": 73,
             "image": "../assets/noodles.jpeg",
             "name": "Instant Noodles",
-            "desc": "",
+            "desc": "Rs 35",
             "price": "35"
         },
            {
             "id": 74,
             "image": "../assets/noodles2.jpeg",
             "name": "Spicy Instant Noodles",
-            "desc": "",
+            "desc": "Rs 35",
             "price": "35"
         },
          {
             "id": 75,
             "image": "../assets/muesli1.jpeg",
             "name": "Muesli",
-            "desc": "",
+            "desc": "Rs 135",
             "price": "135"
         },
           {
             "id": 76,
             "image": "../assets/coffee_1.jpeg",
             "name": "Coffee",
-            "desc": "",
+            "desc": "Rs 225",
             "price": "225"
         },
         
@@ -590,14 +590,14 @@
             "id": 77,
             "image": "../assets/tea1.jpeg",
             "name": "Tea",
-            "desc": "",
+            "desc": "Rs 125",
             "price": "125"
         },
           {
             "id": 78,
             "image": "../assets/sugar_1.jpeg",
             "name": "Sugar",
-            "desc": "",
+            "desc": "Rs 110",
             "price": "110"
         }
 
