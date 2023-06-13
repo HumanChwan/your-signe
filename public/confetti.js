@@ -1,30 +1,8 @@
+var cart;
 {
   const shopSection = document.querySelector('.shop');
   const cartToggleButton = document.querySelector('.cart-toggle');
   const cartDiv = document.querySelector('.cart');
-  // const confettiWithOrigin = (button) => {
-  //   const random = (max) => {
-  //     return Math.floor(Math.random() * max);
-  //   };
-  //   const frag = document.createDocumentFragment();
-  //   const className = `confetti-${random(300)}`;
-  //   for (let i = 0; i < 100; i++) {
-  //     const styles = `transform: translate3d(${random(400)}px, ${random(400)}px, 0) rotate(${random(360)}deg);
-  //           background: hsla(${random(360)}, 100%, 50%, 1);
-  //           animation: bang 1000ms ease-out forwards;
-  //           opacity: 0`;
-  //     var e = document.createElement('i');
-  //     e.classList.add(className);
-  //     e.style.cssText = styles.toString();
-  //     frag.appendChild(e);
-  //   }
-  //   button.append(frag);
-  //   setTimeout(() => {
-  //     document.querySelectorAll(`.${className}`).forEach((conf) => {
-  //       conf.remove();
-  //     });
-  //   }, 1000);
-  // };
   class Cart {
     constructor(cartDiv, cartButton) {
       this.createToggleFunctionality = () => {
@@ -172,7 +150,7 @@
   };
   const main = async () => {
     const data = await getData();
-    const cart = new Cart(cartDiv, cartToggleButton);
+    cart = new Cart(cartDiv, cartToggleButton);
     // .sort((a, b) => Math.random() > 0.5 ? 1 : -1)
     const shopChildren = appendData(data.list, cart);
     shopChildren.forEach((shopElement, idx) => {

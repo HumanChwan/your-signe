@@ -1,4 +1,5 @@
 "use strict";
+var cart;
 const shopSection = document.querySelector('.shop');
 const cartToggleButton = document.querySelector('.cart-toggle');
 const cartDiv = document.querySelector('.cart');
@@ -173,7 +174,7 @@ const main = async () => {
     const data = await getData();
     // .sort((a, b) => Math.random() > 0.5 ? 1 : -1)
     const shopChildren = appendData(data.list);
-    const cart = new Cart(cartDiv, cartToggleButton);
+    cart = new Cart(cartDiv, cartToggleButton);
     shopChildren.forEach((shopElement, idx) => {
         shopElement.addEventListener('dragstart', (e) => {
             // e.preventDefault();

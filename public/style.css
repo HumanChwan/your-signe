@@ -394,3 +394,7 @@ aside {
 .hide {
     display: none;
 }
+
+.total-value {
+    font-weight: 700;
+}

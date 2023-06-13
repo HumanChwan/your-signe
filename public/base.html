@@ -57,7 +57,7 @@
     <div class="gray-cover hide">
       <div class="proceed-to-checkout-modal">
         <div class="modal-border">
-            <h3>Total Value of your Cart is INR </h3>
+          <h3>Total Value of your Cart is <strong class="total-value"></strong></h3>
           <p>The Experiment is complete. Please fill the form below.</p>
             <!-- TODO: Rohan fill this url -->
           <a href="https://iima.au1.qualtrics.com/jfe/form/SV_6QFYjTaKyrzIIYe
@@ -68,6 +68,10 @@
     </body>
   <script>
     const proceedToCheckout = () => {
+        let cost = 0;
+        cart.cartContents.forEach((content) => cost += content.price * content.quantity)
+
+        document.querySelector(".total-value").innerText = `Rs. ${cost}`
       document.body.classList.add('modal-open');
       document.querySelector('.gray-cover').classList.remove('hide');
     };
