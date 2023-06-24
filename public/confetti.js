@@ -10,8 +10,10 @@ var cart;
           console.log('huh');
           return;
         }
+        this.openState = true;
         this.domButtonElement.addEventListener('click', () => {
           this.openState = !this.openState;
+
           if (this.openState) {
             this.domElement.classList.remove('cart-close');
             this.domElement.classList.add('cart-open');

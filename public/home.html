@@ -56,19 +56,32 @@
           <h3>Total Value of your Cart is <strong class="total-value"></strong></h3>
           <p>The Experiment is complete. Please fill the form below.</p>
         <!-- TODO: Rohan fill this url -->
-        <a href="https://iima.au1.qualtrics.com/jfe/form/SV_6QFYjTaKyrzIIYe" class="index-btn">Form</a>
+        <a href="https://iima.au1.qualtrics.com/jfe/form/SV_6QFYjTaKyrzIIYe" target="_blank" rel="noreferrer" class="index-btn">Form</a>
       </div>
     </div>
   </div>
   <script type="module" src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   <script>
+    var startTime = new Date()
     const proceedToCheckout = () => {
-        let cost = 0;
-        cart.cartContents.forEach((content) => cost += content.price * content.quantity)
+        let cost = 0, quantity = 0;
+        cart.cartContents.forEach((content) => {
+            cost += content.price * content.quantity
+            quantity += content.quantity
+        })
 
+        fetch('/submit-details', {
+            method: "POST",
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({cost, quantity, startTime, endTime: new Date()})
+        }).then(() => {
         document.querySelector(".total-value").innerText = `Rs. ${cost}`
-      document.body.classList.add('modal-open');
-      document.querySelector('.gray-cover').classList.remove('hide');
+        document.body.classList.add('modal-open');
+        document.querySelector('.gray-cover').classList.remove('hide');
+        }).catch((e) => {
+            console.error('Something sus happened.')
+        })
+
     };
   </script>
 </html>

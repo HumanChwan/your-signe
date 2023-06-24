@@ -7,6 +7,7 @@ var cart;
     class Cart {
         constructor(cartDiv, cartButton) {
             this.createToggleFunctionality = () => {
+            this.openState = true
                 this.domButtonElement.addEventListener('click', () => {
                     this.openState = !this.openState;
                     if (this.openState) {
