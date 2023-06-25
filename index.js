@@ -52,11 +52,11 @@ const appendToSheet = async (values) => {
 }
 
 app.post('/submit-details', async (req, res) => {
-    const { body: { cost, quantity, startTime, endTime }} = req
+    const { body: { cost, quantity, startTime, endTime, type }} = req
     const ipAddress = req.headers['x-forwarded-for'] || req.socket.remoteAddress
 
     try {
-        await appendToSheet([ipAddress, startTime.toString(), endTime.toString(), quantity, cost])
+        await appendToSheet([ipAddress, startTime.toString(), endTime.toString(), quantity, cost, type])
         res.status(200).json({ success: true })
     } catch (_) {
         res.status(500).json({ success: false })

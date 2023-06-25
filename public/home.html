@@ -73,7 +73,7 @@
         fetch('/submit-details', {
             method: "POST",
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({cost, quantity, startTime: startTime.toString(), endTime: (new Date()).toString()})
+            body: JSON.stringify({cost, quantity, startTime: startTime.toString(), endTime: (new Date()).toString(), type: "Confetti"})
         }).then(() => {
         document.querySelector(".total-value").innerText = `Rs. ${cost}`
         document.body.classList.add('modal-open');
