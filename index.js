@@ -52,11 +52,8 @@ const appendToSheet = async (values) => {
 }
 
 app.post('/submit-details', async (req, res) => {
-    let { body: { cost, quantity, startTime, endTime }} = req
-    const ipAddress = req.socket.remoteAddress
-
-    startTime = new Date(startTime)
-    endTime = new Date(endTime)
+    const { body: { cost, quantity, startTime, endTime }} = req
+    const ipAddress = req.headers['x-forwarded-for'] || req.socket.remoteAddress
 
     try {
         await appendToSheet([ipAddress, startTime.toString(), endTime.toString(), quantity, cost])
