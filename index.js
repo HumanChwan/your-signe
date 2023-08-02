@@ -20,12 +20,13 @@ app.get('/admin', (_, res) => {
     res.sendFile(path.join(__dirname, 'public', 'admin.html'));
 });
 
+temp_file = path.join(__dirname, 'select.txt')
 app.get('/select', (_, res) => {
     try {
-        fs.readFileSync('/tmp/select.txt');
-        return res.sendFile('/tmp/select.txt');
+        fs.readFileSync(temp_file);
+        return res.sendFile(temp_file);
     } catch (_) {
-        return res.send('random');
+        return res.send('normal');
     }
 });
 
@@ -66,7 +67,7 @@ app.post('/submit-details', async (req, res) => {
 app.post('/admin', (req, res) => {
     const select = req.body.select;
     try {
-        fs.writeFileSync('/tmp/select.txt', select);
+        fs.writeFileSync(temp_file, select);
         return res.redirect('admin.html?done=true');
     } catch (_) {
         return res.redirect('admin.html?done=false');
