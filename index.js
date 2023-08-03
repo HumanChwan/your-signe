@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require('path');
 const fs = require('fs');
-const fetch = require("node-fetch")
+const axios = require("axios")
 const app = express();
 
 const { authorize } = require('./google-api')
@@ -21,11 +21,13 @@ app.get('/admin', (_, res) => {
     res.sendFile(path.join(__dirname, 'public', 'admin.html'));
 });
 
-URL = "https://jsonblob.com/api/jsonBlob/1136760021622579200"
+url = "https://jsonblob.com/api/jsonBlob/1136760021622579200"
 app.get('/select', async (_, res) => {
     try {
-        const response = await fetch(URL);
-        const data = await response.json();
+        const { data } = await axios({
+            method: "get",
+            url: url
+        })
 
         res.send(data.mode)
     } catch (e) {
@@ -71,12 +73,8 @@ app.post('/submit-details', async (req, res) => {
 app.post('/admin', async (req, res) => {
     const select = req.body.select;
     try {
-        await fetch(URL, {
-            method: "PUT",
-            body: JSON.stringify({"mode": select}),
-            headers: {
-                "content-type": "application/json"
-            }
+        await axios.put(url, { mode: select, }, {
+            headers: {"Content-Type": "application/json"}
         })
         
         return res.redirect('admin.html?done=true');
