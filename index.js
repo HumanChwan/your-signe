@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require('path');
 const fs = require('fs');
+const fetch = require("node-fetch")
 const app = express();
 
 const { authorize } = require('./google-api')
@@ -20,14 +21,17 @@ app.get('/admin', (_, res) => {
     res.sendFile(path.join(__dirname, 'public', 'admin.html'));
 });
 
-MODE = "normal"
-app.get('/select', (_, res) => {
-    return res.send(MODE)
-    // try { fs.readFileSync(temp_file);
-    //     return res.sendFile(temp_file);
-    // } catch (_) {
-    //     return res.send('normal');
-    // }
+URL = "https://jsonblob.com/api/jsonBlob/1136760021622579200"
+app.get('/select', async (_, res) => {
+    try {
+        const response = await fetch(URL);
+        const data = await response.json();
+
+        res.send(data.mode)
+    } catch (e) {
+        console.log("HUHUHUHUHU", e)
+        return res.send('normal');
+    }
 });
 
 const appendToSheet = async (values) => {
@@ -64,10 +68,17 @@ app.post('/submit-details', async (req, res) => {
     }
 })
 
-app.post('/admin', (req, res) => {
+app.post('/admin', async (req, res) => {
     const select = req.body.select;
     try {
-        MODE = select
+        await fetch(URL, {
+            method: "PUT",
+            body: JSON.stringify({"mode": select}),
+            headers: {
+                "content-type": "application/json"
+            }
+        })
+        
         return res.redirect('admin.html?done=true');
     } catch (_) {
         return res.redirect('admin.html?done=false');
